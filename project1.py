@@ -2,6 +2,7 @@ item=input("please input the item being purchased: ")
 price=input("please input the price of item being purchased: ")
 print("would you like to add another item? yes/no ")
 print("maximum two items")
+print("test")
 while True:
     choice = input("")
 
