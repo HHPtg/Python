@@ -12,6 +12,5 @@ while True:
     if choice in ('no'):
       print("your reciept:   " + item + "       " + price + "         " + item2 + "          " + price2 + "                total")
       print(tt)
-      print( "                      ********Thanks For Shopping*******")
       input("")
       input("")
