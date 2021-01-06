@@ -1,20 +1,21 @@
+def restart():
+    resulta = input("wanna try again? y/n")
+    if resulta == "y":
+        print("ok")
+        quiz()
+        exit()
+    else:
+        print("Alright, goodbye")
+        exit()
 #def 
 def ask(question, answer):
   result = input(question)
   if result == answer:
       print("ok")
-      print('1 point')
   else:
     print("wrong")
     print("Sorry You lose :(")
-    resulta = input("wanna try again? y/n" )
-    if resulta == "y":
-        print("ok")
-        quiz()
-    else:
-        print("Alright, goodbye")
-        exit()
-    
+    restart()
 
 #Quiz
 def quiz() :
