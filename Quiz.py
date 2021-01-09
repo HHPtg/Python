@@ -1,3 +1,4 @@
+#restart 
 def restart():
     resulta = input("wanna try again? y/n")
     if resulta == "y":
@@ -7,15 +8,16 @@ def restart():
     else:
         print("Alright, goodbye")
         exit()
-#def 
+#Ask and answer 
 def ask(question, answer):
   result = input(question)
   if result == answer:
-      print("ok")
+      print("Well done")
   else:
     print("wrong")
     print("Sorry You lose :(")
     restart()
+#Victory Text
 def Victor() :
     print('Congs, You win :)' )
     input("")
