@@ -1,7 +1,8 @@
-import json,webbrowser
+import time, subprocess
 def restart() :
-    values = input("Enter 4 random characters : ") 
-    base_url = "www.prnt.sc/nt"+values 
-    response = webbrowser.open(base_url)
+    values = input("enter any 4 random characters: ")
+    p = subprocess.Popen(["C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "www.prnt.sc/nt"+values ])
+    time.sleep(15)
+    p.kill()
     restart()
 restart()
