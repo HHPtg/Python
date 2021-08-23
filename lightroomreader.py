@@ -1,8 +1,8 @@
-import time, subprocess
+import time, webbrowser, os
 def restart() :
-    values = input("enter any 4 random characters: ")
-    p = subprocess.Popen(["C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "www.prnt.sc/nt"+values ])
-    time.sleep(15)
-    p.kill()
+    values = input("enter 3-4 random characters: ")
+    webbrowser.open("www.prnt.sc/nt"+ values )
+    time.sleep(5)
+    os.system("taskkill /im webbrowser /f")
     restart()
-restart()
+restart()             
