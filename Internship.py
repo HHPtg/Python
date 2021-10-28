@@ -24,7 +24,8 @@ print(fruits[-1]) #this is negative indexing
 print(len(fruits)) #this prints the length of the list
 fruits[1] = 'blueberry' #this replaces item 1 with another item
 print(fruits[1]) #prints replaced fruit
-
+del(fruits[1]) #deleted item on no 1
+print(fruits)
 #tuples
 #tuples use "()"
 #this follows most of the rules of lists including referencing
