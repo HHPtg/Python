@@ -12,7 +12,7 @@ def student_status(class_avg, student_score):
     else:
         print('fail')
 
-class_avg = float(input('input avg'))
-student_score = int(input('insert student mark'))
+class_avg = float(input('input avg: '))
+student_score = int(input('insert student mark: '))
 
 student_status(class_avg,student_score)
