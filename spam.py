@@ -1,13 +1,15 @@
 import pyautogui,time
-time.sleep(15)
+time.sleep(10)
 def restart():
     pyautogui.click()
     #copy and paste last copy
-    pyautogui.press('ctrl'+'v')
+    pyautogui.keyDown('ctrl')
+    pyautogui.press('v')
+    pyautogui.keyUp('ctrl')
     #send
     pyautogui.press('enter')
     time.sleep(0.01)
     restart()
 restart()
-time.sleep(2.00)
+time.sleep(60.00)
 quit()
