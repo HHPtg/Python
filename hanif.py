@@ -1,1 +1,2 @@
-print(132)s
+print(132)
+print(0132)
