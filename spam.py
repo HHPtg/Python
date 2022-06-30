@@ -6,7 +6,7 @@ def restart():
     pyautogui.keyDown('ctrl')
     pyautogui.press('v')
     pyautogui.keyUp('ctrl')
-    #send
+    
     pyautogui.press('enter')
     time.sleep(0.01)
     restart()
